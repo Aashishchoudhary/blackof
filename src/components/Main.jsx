@@ -1,7 +1,7 @@
 import Image from "next/image";
 import seafing from "../../public/seafacing.jpeg";
 import gym from "../../public/gym.jpeg";
-import hourber from "../../public/hourber.jpg";
+
 import images from "../../public/images.jpeg";
 import cabin from "../../public/cabin.jpeg";
 import building from "../../public/building.jpg";
@@ -9,10 +9,10 @@ function Main() {
   return (
     <>
       <div
-        class="
+        className="
   bg-dark text-center"
       >
-        <div class="container row">
+        <div className="container row">
           <div className="col mt-5   text-center ">
             <p className="ms-5 text-start">
               <span className="fs-1  text-light text-uppercase">
@@ -65,27 +65,27 @@ function Main() {
         </div>
       </div>
 
-      <div class="container text-center mt-3">
-        <div class="row">
-          <div class="col  ">
-            <i class="bi bi-buildings-fill fs-1"></i> <br />
+      <div className="container text-center mt-3">
+        <div className="row">
+          <div className="col  ">
+            <i className="bi bi-buildings-fill fs-1"></i> <br />
             <span className="fs-4">BOOK WITH</span> <br />
             <span className="fs-2 blockquote">ONLY 20%</span>
           </div>
-          <div class="col">
-            <i class="bi bi-percent fs-1 border border-dark border-2 rounded-circle p-2"></i>
+          <div className="col">
+            <i className="bi bi-percent fs-1 border border-dark border-2 rounded-circle p-2"></i>
             <br />
             <span className="fs-5">PAYMENT PLAN </span> <br />
             <span className="fs-2 blockquote">EASY 30/70</span>
           </div>
-          <div class="col">
-            <i class="bi bi-person-arms-up fs-1"></i>
+          <div className="col">
+            <i className="bi bi-person-arms-up fs-1"></i>
             <br />
             <span className="fs-5">HANDOVER ON</span> <br />
             <span className="fs-2 blockquote">Q2 2027</span>
           </div>
-          <div class="col">
-            <i class="bi bi-input-cursor fs-1"></i>
+          <div className="col">
+            <i className="bi bi-input-cursor fs-1"></i>
             <br />
             <span className="fs-6">AREA STARTS FROM</span> <br />
             <span className="fs-2 blockquote">700 SQMT</span>
@@ -114,10 +114,10 @@ function Main() {
 
       <div className="row mt-2">
         <div className="col ms-5 align-items-center">
-          <div class="crdiv" style={{ width: "18rem" }}>
-            <Image src={seafing} class="crdimg" alt="..."></Image>
-            <div class="card-body">
-              <h5 class="text-center">
+          <div className="crdiv" style={{ width: "18rem" }}>
+            <Image src={seafing} className="crdimg" alt="..."></Image>
+            <div className="card-body">
+              <h5 className="text-center">
                 Sea Facing <br />
                 Swimming Pool
               </h5>
@@ -125,20 +125,20 @@ function Main() {
           </div>
         </div>
         <div className="col ms-5 align-items-center">
-          <div class="crdiv" style={{ width: "18rem" }}>
-            <Image src={gym} class="crdimg" alt="..."></Image>
-            <div class="card-body">
-              <h5 class="text-center">
+          <div className="crdiv" style={{ width: "18rem" }}>
+            <Image src={gym} className="crdimg" alt="..."></Image>
+            <div className="card-body">
+              <h5 className="text-center">
                 Gymnasium <br />& Fitness
               </h5>
             </div>
           </div>
         </div>
         <div className="col ms-5 align-items-center">
-          <div class="crdiv" style={{ width: "18rem" }}>
-            <Image src={cabin} class=" crdimg" alt="..."></Image>
-            <div class="card-body">
-              <h5 class="text-center">
+          <div className="crdiv" style={{ width: "18rem" }}>
+            <Image src={cabin} className=" crdimg" alt="..."></Image>
+            <div className="card-body">
+              <h5 className="text-center">
                 Spacious Cabins <br />
                 Like Rooms
               </h5>
@@ -146,10 +146,10 @@ function Main() {
           </div>
         </div>
         <div className="col ms-5 align-items-center">
-          <div class="crdiv" style={{ width: "18rem" }}>
-            <Image src={images} class="crdimg" alt="..."></Image>
-            <div class="card-body">
-              <h5 class="text-center">
+          <div className="crdiv" style={{ width: "18rem" }}>
+            <Image src={images} className="crdimg" alt="..."></Image>
+            <div className="card-body">
+              <h5 className="text-center">
                 Floating <br />
                 Pools
               </h5>
@@ -165,18 +165,18 @@ function Main() {
       </div>
       <div className="d-flex flex-row-reverse mb-3">
         {" "}
-        <div class="p-2 border bg-primary mr-2 ">EXTEIOROS</div>
-        <div class="p-2 border broder-dark-2 ms-2">INTERIORS</div>{" "}
+        <div className="p-2 border bg-primary mr-2 ">EXTEIOROS</div>
+        <div className="p-2 border broder-dark-2 ms-2">INTERIORS</div>{" "}
       </div>
       <div className="container">
         <Image className="building-img" src={building} alt=""></Image>
       </div>
       <div className="container">
         <div className="imgdiv ">
-          <Image src={images} class="crdimg1" alt="..."></Image>
-          <Image src={gym} class="crdimg1" alt="..."></Image>
-          <Image src={seafing} class="crdimg1" alt="..."></Image>
-          <Image src={images} class="crdimg1" alt="..."></Image>
+          <Image src={images} className="crdimg1" alt="..."></Image>
+          <Image src={gym} className="crdimg1" alt="..."></Image>
+          <Image src={seafing} className="crdimg1" alt="..."></Image>
+          <Image src={images} className="crdimg1" alt="..."></Image>
         </div>
       </div>
       <div className="footer"> <p className="footer-para">© DAMC copyright 2024 All Rights Reserved</p></div>
